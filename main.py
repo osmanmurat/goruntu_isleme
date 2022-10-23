@@ -7,7 +7,7 @@ x_boyut=500
 foto = cv2.resize(cv2.imread("kkk.jpg",0),(x_boyut,y_boyut))
 
 cv2.imshow("foto",foto)
-cv2.waitKey()
+#cv2.waitKey()
 
 hist = np.zeros(256,dtype = int);
 for f in range (x_boyut):
